@@ -1,2 +1,4 @@
+FILES=index.html pgh-restaurants.html unread.tiff
+
 sync:
-	rsync ./index.html kvdpsu@kvdpsu.org:public_html/
+	rsync $(FILES) kvdpsu@kvdpsu.org:public_html/
