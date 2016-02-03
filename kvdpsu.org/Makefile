@@ -1,4 +1,5 @@
-FILES=index.html pgh-restaurants.html unread.tiff bullet.jpg digital.html d70.html hexar.html
+FILES=pgh-restaurants.html bullet.jpg unread.tiff
 
 sync:
-	rsync $(FILES) kvdpsu@kvdpsu.org:kvdpsu/
+	cp $(FILES) ~/web/kvdpsu.org
+
